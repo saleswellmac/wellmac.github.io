@@ -1,0 +1,21 @@
+{
+    "scope": "/",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+        {
+            "sizes": "192x192",
+            "type": "image/png",
+            "src": "//img1.wsimg.com/isteam/ip/4c0c5df6-c5f5-44b8-900e-43a6e74f4bc4/Logo-7aedb0b.png/:/rs=w:192,h:192,m"
+        },
+        {
+            "sizes": "512x512",
+            "type": "image/png",
+            "src": "//img1.wsimg.com/isteam/ip/4c0c5df6-c5f5-44b8-900e-43a6e74f4bc4/Logo-7aedb0b.png/:/rs=w:512,h:512,m"
+        }
+    ],
+    "name": "WellMac Sales and Supply ",
+    "short_name": "WellMac Sales and Supply ",
+    "theme_color": "#fcbd5d",
+    "background_color": "#fcbd5d"
+}
