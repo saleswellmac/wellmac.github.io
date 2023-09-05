@@ -3283,6 +3283,33 @@ limitations under the License.
                                     </div>
                                   </div>
                                 </div>
+                                <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+                                <script>
+                                function sendEmail() {
+  // Collect user data from the form
+  const name = document.getElementById("input22403").value;
+  const email = document.getElementById("input22404").value;
+  const phone = document.getElementById("input22405").value;
+  const message = document.getElementById("message").value;
+
+  // Send email
+  emailjs.send("service_x5iq3e5", "template_fwm1jas", {
+    to_email: email,
+    from_name: name,
+    phone: phone,
+    message: message,
+  })
+  .then(function(response) {
+    console.log("Email sent successfully:", response);
+    // You can display a success message or redirect the user to a thank-you page.
+  })
+  .catch(function(error) {
+    console.error("Email could not be sent:", error);
+    // Handle errors here (e.g., display an error message to the user).
+  });
+}
+                                </script>
+
                                 <div data-ux="Block"
                                   class="x-el x-el-div c1-1 c1-2 c1-t c1-4h c1-6u c1-b c1-c c1-d c1-e c1-f c1-g">
                                   <p data-ux="DetailsMinor" data-typography="DetailsBeta"
